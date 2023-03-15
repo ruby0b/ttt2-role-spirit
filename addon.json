@@ -1,0 +1,14 @@
+{
+  "title": "[TTT2] Spirit [ROLE]",
+  "type": "ServerContent",
+  "tags": ["roleplay", "fun"],
+  "ignore": [
+    ".git",
+    ".gitignore",
+    ".gitattributes",
+    "readme.md",
+    ".workshop.yaml",
+    "LICENSE",
+    "addon.jpg"
+  ]
+}
