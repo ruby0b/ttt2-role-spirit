@@ -5,12 +5,13 @@ end
 
 function ROLE:PreInitialize()
     self.index = ROLE_SPIRIT
-    self.color = Color(197, 209, 175, 255)
+    self.color = Color(80, 173, 59, 255)
     self.abbr = "spir"
 
     self.defaultTeam = TEAM_INNOCENT
     self.score.killsMultiplier = 2
     self.score.teamKillsMultiplier = -8
+    self.visibleForTeam = {TEAM_TRAITOR}
     self.unknownTeam = true
 
     self.conVarData = {
